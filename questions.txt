@@ -1,0 +1,25 @@
+Questions to the project: 
+
+1) Sort/Limit SQLAlchemy: I read the documentation, for future project I will try to implement either a limit/offset or a KeySet Querying
+2) Configuration
+
+	I modified as recommended with ENV variables. Do I understand correctly, that after this modification I can set these variables in the backend folder using 'set DB_NAME=example',
+	 otherwise run with the default settings, right?
+
+	Much better way, using a config.py For the last project (fyyur) I could not solve this. Can you help me? I created an example config.py file. How can I import to the __init__.py file, 
+	and use 'app.config.from_object' method?
+
+	SECRET_KEY: if it's generated in the config file, is it the same for all users? (generated everytime, or only once?) I read articles, but I don't really understand it needs, and its basics.
+	
+	API_KEY I can imagine, this is always the same key. 
+
+	# Grabs the folder where the script runs. -> it was in the fyyur project. Why is this line useful or why does the program need? 
+	basedir = os.path.abspath(os.path.dirname(__file__))
+
+	Generally if I use a config.py file, it should be also ignored by the git, shouldn't it?
+
+3) PEP8/ pycodestyle: I installed an autocorrector for Atom, and now it has only warnings for the base except statement. 
+4) Try-Except Statement: Thanks for the articles, and examples, in the future I am trying to use special exceptions, or chained except codes. 
+5) API Documentation was documented in a separate file, I copied it into the readme file. 
+
+Thank you in advance for your answers :)
